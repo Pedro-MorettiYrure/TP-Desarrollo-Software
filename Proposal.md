@@ -12,6 +12,9 @@
 ## Tema
 ### Descripción
 *2 a 6 líneas describiendo el negocio (menos es más)*
+El Sistema es una plataforma de juegos basados en turnos 2v2, con la temática de harry potter.
+En cada turno, los jugadores elegirán un movimiento de cada personaje en su equipo.
+Cuando la vida de todos los personajes de un jugador llega a 0, este pierde.
 
 
 ### Modelo
