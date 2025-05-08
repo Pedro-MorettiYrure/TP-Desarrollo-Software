@@ -30,8 +30,8 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Usuario <br>2. CRUD Escuderia|
 |CRUD dependiente|1. CRUD Piloto {depende de} CRUD Escuderia <br>|
-|Listado<br>+<br>detalle| 1. Listado de Pilotos => detalle CRUD Piloto<br> 2. xxx|
-|CUU/Epic| - |
+|Listado<br>+<br>detalle| 1. Listado de Pilotos => detalle CRUD Piloto<br> |
+|CUU/Epic|1. Registrar Usuario |
 
 
 Adicionales para Aprobación
