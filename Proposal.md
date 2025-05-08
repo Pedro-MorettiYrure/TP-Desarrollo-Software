@@ -2,8 +2,8 @@
 
 ## Grupo
 ### Integrantes
-* Leg - Moretti Yrure, Pedro
-* Leg - Bernard, Bruno
+* Leg 53084 - Moretti Yrure, Pedro
+* Leg 52222 - Bernard, Bruno
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
@@ -12,11 +12,12 @@
 ## Tema
 ### Descripción
 *2 a 6 líneas describiendo el negocio (menos es más)*
-El Sistema es una plataforma de pronósticos de Fórmula 1, en donde cada usuario ingresa sus pronósticos y compite con otros, en un ranking general o en torneos privados
+El Sistema es una plataforma de predicciónes de Fórmula 1, en donde cada usuario ingresa sus predicciones y compite con otros para intentar adivinar la mayor cantidad de resultados antes de que se corran las carreras. 
 
 
 ### Modelo
-![imagen del modelo]()
+![image](https://github.com/user-attachments/assets/498550ae-5080-486e-a9c0-031d4cde2e1f)
+
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
@@ -27,8 +28,8 @@ El Sistema es una plataforma de pronósticos de Fórmula 1, en donde cada usuari
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario <br>2. CRUD Escuderia <br>3. CRUD Circuito|
-|CRUD dependiente|1. CRUD Piloto {depende de} CRUD Escuderia <br>2. CRUD Carrera {depende de} CRUD Escuderia, CRUD Circuito y CRUD piloto |
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Escuderia|
+|CRUD dependiente|1. CRUD Piloto {depende de} CRUD Escuderia <br>|
 |Listado<br>+<br>detalle| 1. Listado de Pilotos => detalle CRUD Piloto<br> 2. xxx|
 |CUU/Epic|1. |
 
@@ -36,9 +37,9 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Carrera {depende de} CRUD Escuderia, CRUD Circuito y CRUD piloto |
-|Listado<br>+<br>detalle| 1. Listado de Usuarios con mejores Usuarios => detalle CRUD Jugador 2. Listado Carreras => detalle CRUD Carrera|
-|CUU/Epic|1. El administrador registra los resultados de una Carrera <br>2. El usuario registra la prediccion de una carrera<br>3. xxx|
+|CRUD |1. CRUD Circuito <br>2. CRUD Carrera {depende de} CRUD Escuderia, CRUD Circuito y CRUD piloto |
+|Listado<br>+<br>detalle| 1. Listado Carreras => detalle CRUD Carrera <br>2. Listado de Usuarios con mejores Usuarios => detalle CRUD Jugador |
+|CUU/Epic|1. El usuario registra la prediccion de una carrera<br>2. El administrador registra los resultados de una Carrera <br>3. xxx|
 
 
 ### Alcance Adicional Voluntario
@@ -47,6 +48,6 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1.  <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Crear Torneo privado <br>2. xxx|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1.  <br>2. Ranking de jugadores en un torneo privado|
+|CUU/Epic|1. Crear Torneo privado <br>2. Ingresar los resultados automáticamente mediante una API <br>3. Realizar un post|
+|Otros|1. |
