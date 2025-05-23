@@ -16,7 +16,8 @@ El Sistema es una plataforma de predicciónes de Fórmula 1, en donde cada usuar
 
 
 ### Modelo
-![image](https://github.com/user-attachments/assets/498550ae-5080-486e-a9c0-031d4cde2e1f)
+![DCD](https://github.com/user-attachments/assets/1ba79ca9-c4af-4888-a9da-b904194bda43)
+
 
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
