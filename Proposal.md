@@ -28,18 +28,18 @@ El Sistema es una plataforma de predicciónes de Fórmula 1, en donde cada usuar
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario <br>2. CRUD Escuderia|
+|CRUD simple|1. CRUD Escuderia <br>2. CRUD Circuito|
 |CRUD dependiente|1. CRUD Piloto {depende de} CRUD Escuderia <br>|
-|Listado<br>+<br>detalle| 1. Listado de Pilotos => detalle CRUD Piloto<br> |
-|CUU/Epic|1. Registrar Usuario |
+|Listado<br>+<br>detalle| 1. Listado de Pilotos => detalle CRUD Piloto y CRUD Escuderia<br>2. Listado Carreras próximas => detalle Carrera |
+|CUU/Epic|1. Gestionar la carrera (definir carrera y cargar escudería-piloto y circuito) |
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Circuito <br>2. CRUD Carrera {depende de} CRUD Escuderia, CRUD Circuito y CRUD piloto |
-|Listado<br>+<br>detalle| 1. Listado Carreras => detalle CRUD Carrera <br>2. Listado de Usuarios con mejores Predicciones => detalle CRUD Usuario |
-|CUU/Epic|1. El usuario registra la prediccion de una carrera<br>2. El administrador registra los resultados de una Carrera <br>3. xxx|
+|CRUD | - |
+|Listado<br>+<br>detalle| 1. Listado de Usuarios con mejores Predicciones => detalle Usuario |
+|CUU/Epic|1. Gestionar Torneo (definir un torneo con sus carreras y sus participantes)<br>2.  Registrar predicciones y resultados de una carrera|
 
 
 ### Alcance Adicional Voluntario
@@ -48,6 +48,6 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Ranking de usuarios en un torneo privado |
+|| |
 |CUU/Epic|1. Ingresar los resultados automáticamente mediante una API <br>2.  Crear Torneo privado <br>3. Realizar un post|
 |Otros| - |
